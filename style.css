@@ -321,4 +321,32 @@ body section.help-video .help-section .video a:hover {
   color: #445ede;
   transition: 0.2s;
   border: none;
+}
+body section.important-dates-section .important-dates .heading h3 {
+  margin: 1rem 0;
+  margin-top: 2rem;
+}
+body section.important-dates-section .important-dates .content {
+  border: 2px solid grey;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+body section.important-dates-section .important-dates .content .border {
+  height: 3px;
+  background-color: grey;
+  width: 50%;
+  margin: 0 auto;
+}
+body section.important-dates-section .important-dates .content .content {
+  padding: 0;
+  border: none;
+}
+body section.important-dates-section .important-dates .content .content .name {
+  margin-top: 1rem;
+}
+body section.important-dates-section .important-dates .content .content .name p {
+  color: #445ede;
+}
+body section.important-dates-section .important-dates .content .content .dates .reg p, body section.important-dates-section .important-dates .content .content .dates .date p {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

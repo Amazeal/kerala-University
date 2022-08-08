@@ -421,6 +421,54 @@ body {
             }
         }
     }
+
+    //important dates
+
+    section.important-dates-section{
+        .important-dates{
+
+            .heading{
+                h3{
+                    margin:1rem 0;
+                    margin-top:2rem;
+                }
+            }
+
+            .content{
+                border:2px solid grey;
+                padding:1rem;
+                margin:1rem 0;
+
+                .border{
+                    height:3px;
+                    background-color:grey;
+                    width:50%;
+                    margin:0 auto;
+                }
+
+                .content{
+                    padding:0;
+                    border:none;
+
+                    .name{
+                        margin-top:1rem;
+                        p{
+                            color:#445ede;
+                        }
+                    }
+
+                    .dates{
+                        .reg,.date{
+                            p{
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
 }
 
 //media queries
