@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+body section.header-section {
+  display: flex;
+  align-items: center;
+  background: rgba(46, 46, 46, 0.7) url("https://slcm.keralauniversity.ac.in/static/assets/img/img1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+body section.header-section .heading-section {
+  margin: 1rem auto;
+  padding: 0.5rem 0.5rem;
+  border: 2px solid #445ede;
+  border-radius: 15px;
+}
+body section.header-section .heading-section h2,
+body section.header-section .heading-section p {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 20px white;
+}
+body section.body-section .toggle-div .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+body section.body-section .toggle-div button.btn-more .toggle-btn {
+  align-items: center;
+}
+body section.body-section .toggle-div button.btn-more p {
+  margin-bottom: 0;
+}
+body section.body-section .toggle-div button.btn-more:hover {
+  border: none;
+}
+body section.body-section .toggle-div button.btn-more:hover .toggle-btn {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+body section.body-section .toggle-div button.btn-more:focus {
+  border: none;
+}
+body section.body-section .toggle-div button.btn-settings .toggle-btn {
+  align-items: center;
+}
+body section.body-section .toggle-div button.btn-settings .toggle-btn p {
+  margin-bottom: 0;
+}
+body section.body-section .toggle-div button.btn-settings:hover {
+  border: none;
+}
+body section.body-section .toggle-div button.btn-settings:hover .toggle-btn {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+body section.body-section .toggle-div button.btn-settings:focus {
+  border: none;
+}
+body section.body-section .toggle-div .offcanvas-header {
+  background: url("https://slcm.keralauniversity.ac.in/static/assets/img/img1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body section.body-section .toggle-div .offcanvas-header .sidebar-header {
+  margin: 0 auto;
+}
+body section.body-section .toggle-div .offcanvas-header button {
+  background-color: white;
+  border-radius: 50%;
+}
+body section.body-section .toggle-div .offcanvas-body-more {
+  padding-top: 1rem;
+}
+body section.body-section .toggle-div .offcanvas-body-more a {
+  text-decoration: none;
+  color: black;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab:hover p.main {
+  transform: translateX(0.5rem);
+  transition: 0.2s;
+  color: #445ede;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab:hover i {
+  color: #445ede;
+  transition: 0.2s;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab-x:hover p {
+  transform: translateX(0.5rem);
+  transition: 0.2s;
+  color: #445ede;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab-x:hover i {
+  color: #445ede;
+  transition: 0.2s;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab {
+  align-items: center;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab p {
+  margin-bottom: 0;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab .accordion-item {
+  border: none;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab .accordion-item .accordion-button:not(.collapsed) {
+  color: black;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab .accordion-item .accordion-button:focus {
+  box-shadow: none;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab .accordion-item button .accordion-btn-div {
+  align-items: center;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab .accordion-item .accordion-body a .tab-sub {
+  align-items: center;
+  padding-left: 1rem;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab .accordion-item .accordion-body a .tab-sub i {
+  color: rgb(167, 167, 167);
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab .accordion-item .accordion-body a .tab-sub:hover i {
+  color: #445ede;
+  transition: 0.2s;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab .accordion-item .accordion-body a .tab-sub:hover p {
+  transition: 0.2s;
+  color: #445ede;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab-x {
+  align-items: center;
+  margin: 0.8rem 1.2rem;
+}
+body section.body-section .toggle-div .offcanvas-body-more .tab-x p {
+  margin-bottom: 0;
+}
+body section.body-section .toggle-div .offcanvas-body-settings .border-div {
+  background-color: rgb(179, 179, 179);
+  height: 1px;
+  width: 90%;
+  margin: 0 auto;
+}
+body section.body-section .toggle-div .offcanvas-body-settings a {
+  text-decoration: none;
+  color: black;
+}
+body section.body-section .toggle-div .offcanvas-body-settings a .settings-tab {
+  align-items: center;
+  padding: 1rem 0;
+  justify-content: center;
+}
+body section.body-section .toggle-div .offcanvas-body-settings a .settings-tab p {
+  margin-bottom: 0;
+}
+body section.body-section .toggle-div .offcanvas-body-settings a .settings-tab:hover p,
+body section.body-section .toggle-div .offcanvas-body-settings a .settings-tab:hover i {
+  color: #445ede;
+  transition: 0.2s;
+}
+body section.main-body {
+  margin: 2rem 0;
+}
+body section.main-body .student-bio {
+  border-radius: 15px;
+  box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  margin: 0 1rem;
+}
+body section.main-body .student-bio .student-details {
+  padding: 1rem 0;
+}
+body section.main-body .student-bio .student-details .details {
+  border-top: 2px solid rgb(177, 177, 177);
+}
+body section.main-body .student-bio .student-details .details .gender {
+  padding: 1rem 0;
+  box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+body section.main-body .student-bio .student-details .details .gender p {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  color: #445ede;
+}
+body section.main-body .student-bio .student-details .details .gender .gender-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.main-body .student-bio .student-details .details .gender .gender-sub p {
+  margin-bottom: 0;
+  text-align: center;
+  color: black;
+}
+body section.main-body .student-bio .student-details .details .dob {
+  padding: 1rem 0;
+  box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+body section.main-body .student-bio .student-details .details .dob p {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  color: #445ede;
+}
+body section.main-body .student-bio .student-details .details .dob .dob-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.main-body .student-bio .student-details .details .dob .dob-sub p {
+  margin-bottom: 0;
+  text-align: center;
+  color: black;
+}
+body section.main-body .student-bio .student-details .details .phone {
+  padding: 1rem 0;
+  box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+body section.main-body .student-bio .student-details .details .phone p {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  color: #445ede;
+}
+body section.main-body .student-bio .student-details .details .phone .phone-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.main-body .student-bio .student-details .details .phone .phone-sub p {
+  margin-bottom: 0;
+  text-align: center;
+  color: black;
+}
+body section.main-body .student-bio .student-details .details .mail {
+  padding: 1rem 0;
+  box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+body section.main-body .student-bio .student-details .details .mail p {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  color: #445ede;
+}
+body section.main-body .student-bio .student-details .details .mail .mail-sub {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+body section.main-body .student-bio .student-details .details .mail .mail-sub p {
+  margin-bottom: 0;
+  color: black;
+}
+body section.main-body .student-bio .student-details .details .semester {
+  padding: 1rem 0;
+  box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.75);
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+body section.main-body .student-bio .student-details .details .semester p {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  color: #445ede;
+}
+body section.main-body .student-bio .student-details .details .semester .semester-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.main-body .student-bio .student-details .details .semester .semester-sub p {
+  margin-bottom: 0;
+  text-align: center;
+  color: black;
+}
+body section.help-video .help-section {
+  box-shadow: 1px 1px 25px grey;
+  border-radius: 10px;
+  margin: 1rem 1rem;
+}
+body section.help-video .help-section h3 {
+  text-align: center;
+  padding-top: 1rem;
+}
+body section.help-video .help-section .video a {
+  text-decoration: none;
+  color: black;
+}
+body section.help-video .help-section .video a p {
+  margin-bottom: 0;
+  text-align: center;
+  padding: 1rem 0;
+}
+body section.help-video .help-section .video a:hover {
+  color: #445ede;
+  transition: 0.2s;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
