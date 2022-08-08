@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+    section.header-section {
+        display: flex;
+        align-items: center;
+        background: rgba(46, 46, 46, 0.7) url('https://slcm.keralauniversity.ac.in/static/assets/img/img1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+
+        .heading-section {
+            margin: 1rem auto;
+            padding: .5rem .5rem;
+            border: 2px solid #445ede;
+            border-radius: 15px;
+
+            h2,
+            p {
+                color: #fff;
+                text-align: center;
+                text-shadow: 1px 1px 20px white;
+            }
+        }
+    }
+
+    section.body-section {
+        .toggle-div {
+            .buttons {
+                display: flex;
+                justify-content: space-between;
+            }
+
+
+            button.btn-more {
+                .toggle-btn {
+                    align-items: center;
+                }
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
+
+            button.btn-more:hover {
+                border: none;
+
+                .toggle-btn {
+                    transform: scale(1.1);
+                    transition: .2s;
+                }
+            }
+
+            button.btn-more:focus {
+                border: none;
+            }
+
+
+            button.btn-settings {
+                .toggle-btn {
+                    align-items: center;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            button.btn-settings:hover {
+                border: none;
+
+                .toggle-btn {
+                    transform: scale(1.1);
+                    transition: .2s;
+                }
+            }
+
+            button.btn-settings:focus {
+                border: none;
+            }
+
+
+            .offcanvas-header {
+                background: url('https://slcm.keralauniversity.ac.in/static/assets/img/img1.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+
+                .sidebar-header {
+                    margin: 0 auto;
+                }
+
+                button {
+                    background-color: white;
+                    border-radius: 50%;
+                }
+            }
+
+            .offcanvas-body-more {
+                padding-top: 1rem;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                .tab:hover {
+                    p.main {
+                        transform: translateX(.5rem);
+                        transition: .2s;
+                        color: #445ede;
+                    }
+
+                    i {
+                        color: #445ede;
+                        transition: .2s;
+                    }
+                }
+
+                .tab-x:hover {
+                    p {
+                        transform: translateX(.5rem);
+                        transition: .2s;
+                        color: #445ede;
+                    }
+
+                    i {
+                        color: #445ede;
+                        transition: .2s;
+                    }
+                }
+
+                .tab {
+                    align-items: center;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+
+                    .accordion-item {
+                        border: none;
+
+                        .accordion-button:not(.collapsed) {
+                            color: black;
+                            border: none;
+                            box-shadow: none;
+                            background: none;
+                        }
+
+                        .accordion-button:focus {
+                            box-shadow: none;
+                        }
+
+                        button {
+                            .accordion-btn-div {
+                                align-items: center;
+                            }
+                        }
+
+                        .accordion-body {
+                            a {
+                                .tab-sub {
+                                    align-items: center;
+                                    padding-left: 1rem;
+
+                                    i {
+                                        color: rgb(167, 167, 167);
+                                    }
+                                }
+
+                                .tab-sub:hover {
+                                    i {
+                                        color: #445ede;
+                                        transition: .2s;
+                                    }
+
+                                    p {
+                                        transition: .2s;
+                                        color: #445ede;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .tab-x {
+                    align-items: center;
+                    margin: .8rem 1.2rem;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .offcanvas-body-settings {
+
+                .border-div {
+                    background-color: rgb(179, 179, 179);
+                    height: 1px;
+                    width: 90%;
+                    margin: 0 auto;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+
+
+                    .settings-tab {
+                        align-items: center;
+                        padding: 1rem 0;
+                        justify-content: center;
+
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .settings-tab:hover {
+
+                        p,
+                        i {
+                            color: #445ede;
+                            transition: .2s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //main body
+
+    //bio
+
+    section.bio-section{
+        .bio{
+            box-shadow: 1px 1px 20px grey;
+            border-radius: 15px;
+            padding:1rem;
+            margin:1rem auto;
+            margin-bottom: 2rem;
+
+            .heading{
+                h3{
+                    text-align: center;
+                    color: #445ede;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    .edit{
+                        justify-content: end;
+                    }
+                }
+                a:hover{
+                    color:#445ede;
+                    transition: .2s;
+                    .edit{
+                        p{
+                            transform: translateX(.2rem);
+                            transition: .2s;
+                        }
+                    }
+                }
+            }
+            .image{
+                text-align: center;
+            }
+            .details{
+                border-top:2px solid grey;
+                padding:2rem 0;
+                p{
+                    margin-bottom: 0;
+                    text-align:center;
+                }
+                i{
+                    display: flex;
+                    justify-content: center;
+                    padding:.5rem 0;
+                }
+            }
+
+        }
+    }
+
+    //other details section
+
+    section.other-details-section{
+        .other-details{
+
+                //academic info start
+
+
+            .academic-info{
+                box-shadow: 1px 1px 25px grey;
+                border-radius: 15px;
+                width:30rem;
+
+                .heading{
+                    h5{
+                        text-align: center;
+                        padding:1.5rem 0;
+                    }
+                }
+                .content{
+                    .row{
+                        p{
+                            text-align: center;
+                            color:#445ede;
+                        }
+                    }
+                }
+            }
+
+            //academic info end
+
+            //fee concession details start
+            .fee-concession{
+
+                box-shadow:1px 1px 25px grey;
+                border-radius: 15px;
+                width:30rem;
+                .heading{
+                    h5{
+                        text-align: center;
+                        padding:1.5rem 0;
+                    }
+                }
+                .content{
+                    .row{
+                        p{
+                            text-align: center;
+                            color:#445ede;
+                        }
+                    }
+                }
+            }
+            //fee concessison details end
+
+            //address start
+            .address{
+                box-shadow: 1px 1px 25px grey;
+                border-radius: 15px;
+                width:30rem;
+                margin:2rem auto;
+
+                .heading{
+                    h5{
+                        text-align: center;
+                        padding:1.5rem 0;
+                    }
+                }
+                .content{
+                    .row{
+                        p{
+                            text-align: center;
+                            color: #445ede;
+                        }
+                        p.add{
+                            text-align: start;
+                        }
+                    }
+                }
+            }
+            //address end
+
+            //emergency start
+            .emergency{
+                box-shadow: 1px 1px 25px grey;
+                border-radius: 15px;
+                width:30rem;
+                margin:2rem auto;
+
+                .heading{
+                    h5{
+                        text-align: center;
+                        padding:1.5rem 0;
+                    }
+                }
+                .content{
+                    p{
+                        text-align: center;
+                        color: #445ede;
+                    }
+                }
+            }
+            //emergency end
+
+
+        }
+    }
+}
