@@ -310,7 +310,7 @@ body section.help-video .help-section h3 {
 }
 body section.help-video .help-section .video a {
   text-decoration: none;
-  color: black;
+  color: #445ede;
 }
 body section.help-video .help-section .video a p {
   margin-bottom: 0;
@@ -318,7 +318,7 @@ body section.help-video .help-section .video a p {
   padding: 1rem 0;
 }
 body section.help-video .help-section .video a:hover {
-  color: #445ede;
+  color: black;
   transition: 0.2s;
   border: none;
 }
